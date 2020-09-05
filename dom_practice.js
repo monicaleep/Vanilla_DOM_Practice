@@ -33,3 +33,5 @@ document.body.appendChild(newImg)
 
 //Select any element using querySelector and save it to a variable
 const elemToBeRemoved = document.querySelector('h4')
+//and remove it from your page using .remove()
+elemToBeRemoved.remove()
