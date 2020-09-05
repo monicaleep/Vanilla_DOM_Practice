@@ -9,3 +9,7 @@ console.log(myHTwo)
 
 //Using JavaScript, change the innerText of your h2 to have 3 exclamation points at the end
 myHTwo.innerText += "!!!"
+
+//Get all of the elements with the class you assigned and save them to a variable. Console.log that variable.
+const myFavorites = document.querySelectorAll('.favorite')
+console.log(myFavorites )
