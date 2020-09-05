@@ -25,4 +25,8 @@ lis[2].innerText = "Jamboree sandwich at the Jambo-ree"
 const newImg = document.createElement('img')
 
 //Add an attribute for the source url of your new image using .setAttribute()
-newImg.setAttribute('src',"https://upload.wikimedia.org/wikipedia/commons/f/f2/Dunkin%27_Donuts_Park_-_main_entrance.png")
+newImg.setAttribute('src',"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Dunkin%27_Donuts_in_Midway.jpg/800px-Dunkin%27_Donuts_in_Midway.jpg")
+
+
+//Append it to your page, somewhere, using .appendChild()
+document.body.appendChild(newImg)
