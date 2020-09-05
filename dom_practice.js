@@ -27,6 +27,9 @@ const newImg = document.createElement('img')
 //Add an attribute for the source url of your new image using .setAttribute()
 newImg.setAttribute('src',"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Dunkin%27_Donuts_in_Midway.jpg/800px-Dunkin%27_Donuts_in_Midway.jpg")
 
-
 //Append it to your page, somewhere, using .appendChild()
 document.body.appendChild(newImg)
+
+
+//Select any element using querySelector and save it to a variable
+const elemToBeRemoved = document.querySelector('h4')
