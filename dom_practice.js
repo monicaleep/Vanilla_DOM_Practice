@@ -17,3 +17,7 @@ console.log(myFavorites)
 // Change the style/color of the text of your ONE of your li elements to your favorite html color
 const lis = document.querySelectorAll('li');
 lis[1].style.color = "DARKORCHID"
+
+
+// Change the innerText of one of your list items to 'Jamboree sandwich at the Jambo-ree'
+lis[2].innerText = "Jamboree sandwich at the Jambo-ree"
