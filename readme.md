@@ -1,2 +1,1 @@
-![Image of DOMTree]
-(DOMTree.jpg)
+![Image of DOMTree](DOMTree.jpg)
